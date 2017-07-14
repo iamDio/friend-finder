@@ -12,10 +12,3 @@ module.exports = function (app) {
 	});
 };
 
-/*	app.get('/css/style.css', function (req, res) {
-		res.sendFile(path.join(__dirname + '/../public/css/style.css'));
-	});
-
-	app.get('/lib/jquery.js', function (req, res) {
-		res.sendFile(path.join(__dirname + '/../public/lib/jquery.js'));
-*/
