@@ -8,7 +8,8 @@ const PORT = 3000;
 
 
 require('./app/routing/htmlRoutes.js')(app);
-
+require('./app/routing/apiRoutes.js')(app);
+require('./app/data/friends.js')(app);
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
